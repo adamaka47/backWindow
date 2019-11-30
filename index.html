@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Всплывающая форма</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	
+		<div class="wrapper">
+			<input type="checkbox" name="toggle" id="form-m" class="toggle-form checkbox-form">
+			<div class="container">
+				<label for="form-m" class="header-2 toggle-form">Скутяю&nbsp;<i class="fa fa-question-circle"></i></label>
+				<form class="form">
+					<div class="int-item">
+						<label for="" class="int-lab">Ваше имя:</label>
+						<input type="text" class="int-name" required>
+					</div>
+					<div class="int-item">
+						<label for="" class="int-lab">Ваш email:</label>
+						<input type="email" class="int-name" required>
+					</div>
+					<div class="int-item">
+						<label for="" class="int-lab">Сообщение:</label>
+						<textarea type="text" class="int-name txt" required></textarea>
+					</div>
+					<div class="int-item">
+						<input type="checkbox" class="int-check" id="ch">
+						<label for="ch" class="agree">Я согласен на обработку <a href="#">моих данных</a></label>
+					</div>
+					<button class="btn">Отправить!</button>
+				</form>
+			</div>
+		</div>
+
+
+
+
+	<script src="script.js"></script>
+
+</body>
+</html>
